@@ -3,17 +3,22 @@ body {
     margin: 0;
 }
 
-h1 {
+.background h1 {
     font-size: 50px;
     color: white;
 }
 
-h2 {
+.background h3 {
     color: white;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
 }
 
 .background {
-    background-image: url(images/donation5.jpg);
+    background-image: url(images/donation13.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 200px;
@@ -29,4 +34,278 @@ h2 {
     padding: 10px 40px;
     font-weight: 400;
     border-radius: 5px;
+}
+
+.link-button:hover {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 10px 40px;
+    font-weight: 400;
+    color: white;
+    border-radius: 5px;
+}
+
+.link-button-1 {
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(66, 66, 66));
+    padding: 8px 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: white;
+    margin-left: 46%;
+
+}
+
+.link-button-1:hover {
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(66, 66, 66));
+    padding: 8px 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.link-button-2 {
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(255, 255, 255));
+    padding: 8px 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.link-button-2:hover {
+    text-decoration: none;
+    background-image: linear-gradient(red, rgb(66, 66, 66));
+    padding: 8px 20px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.donate-today {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.donate-today-1 {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+    margin-left: 33%;
+
+}
+
+.flex-container>p {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.flex-container>h6 {
+    background-color: #d8d2d2;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px;
+    color: #d43333;
+    border: 1px solid #d43333;
+    border-radius: 10px;
+}
+
+.flex-container-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(255, 255, 255);
+    margin-left: 27%;
+
+}
+
+.icon-section-1 {
+    background-color: #d8e5ee;
+    width: 250px;
+    margin: 10px;
+    text-align: justify;
+    height: 260px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.icon-section-2 {
+    background-color: #f6e6f7;
+    width: 250px;
+    margin: 10px;
+    text-align: justify;
+    height: 260px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.icon-section-3 {
+    background-color: #f5f3dd;
+    width: 250px;
+    margin: 10px;
+    text-align: justify;
+    height: 260px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+.other-amount p {
+    margin-left: 45%;
+}
+
+.other-amount-hr {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: -5px;
+}
+
+#icon {
+    font-size: 45px;
+}
+
+.icon-section-1 h5 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.icon-section-2 h5 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.icon-section-3 h5 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.survive-1 {
+    float: left;
+    width: 39%;
+    padding: 10px;
+    height: 360px;
+    margin-left: 130px;
+    margin-top: 80px;
+}
+
+.survive-1 h2 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.survive-1 p {
+    text-align: justify;
+}
+
+.container {
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.subscribe {
+    justify-content: center;
+}
+
+.container h2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+.form-subscribe .form-control {
+    background-color: hsla(0, 0%, 100%, .8);
+    padding-left: 200px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+    border: 1px solid black;
+    border-top-left-radius: 36px;
+    border-bottom-left-radius: 36px
+}
+
+.form-subscribe .form-control.focus,
+.form-subscribe .form-control:focus {
+    z-index: 2;
+    background-color: hsla(0, 0%, 100%, .8)
+}
+
+.form-subscribe .btn {
+    border-top-right-radius: 36px;
+    border-bottom-right-radius: 36px;
+    background-image: linear-gradient(red, rgb(255, 255, 255));
+    border: 2px solid black;
+    height: 65.5Px;
+    text-decoration: none;
+}
+
+.input-group {
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.input-group ::placeholder {
+    word-spacing: 5px;
+    text-align: end;
+}
+
+.input-group-btn button {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.input-group-btn button:hover {
+    background-color: linear-gradient(red, rgb(66, 66, 66));
+    font-weight: bold;
+}
+
+.footer {
+    background-color: black;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer h1 {
+    color: #d43333;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #d43333;
+    font-size: 20px;
+    font-weight: bolder;
 }
